@@ -1,0 +1,17 @@
+wordCloud-demo 
+     Contains html/d3.js files for creating cloud along with data file .
+     open index.htm in browser
+
+Top10cloud demo : 
+     word cloud for top 10 word-pair
+     open index.html in browser
+
+newsData : 
+      Data collected from NYtimes also respective output from reducer .
+
+TwitterData
+     curated/uncurated Data collected from twitter also respective output from reducer 
+      
+
+
+

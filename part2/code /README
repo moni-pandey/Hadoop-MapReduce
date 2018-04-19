@@ -1,0 +1,26 @@
+nyDataWebCrawler : 
+
+       Is web crawling script for extracting content from URL (NY times)
+
+
+twitterDataCollection : 
+
+       For Collecting tweets 
+
+
+WordCount.java  : 
+      Mappper  cleans the i/p by removing stopWords and special character . Reducer emits the key ,value pair in sorted order .
+      It takes two input :
+             a)Path to data file 
+             b) path to o/p folder 
+
+WordCoOccurence.java 
+      Mapper cleans the i/p by removing stopWords and special character and then split it  input into pair.Reducer count the occurence
+
+
+TopSomething.java 
+      input :  output of WordCoOccurence.java
+      output : top ten words   
+  
+
+

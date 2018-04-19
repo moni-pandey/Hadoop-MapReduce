@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="d3.layout.cloud.js"></script>
+
+
+<script src="wordcloud.js"></script>
+
+<style>
+body{ margin:0 auto; }
+h1   {color: blue;}
+p    {color: red;}
+#chart
+{
+width: 960px;
+height: 100%;
+
+margin-top: 5%;
+flex: 1;
+
+
+
+
+}
+#chart1
+{
+flex: 1;
+width: 960px;
+height: 100%;
+
+margin-top: 5%;
+
+margin-left: 5%
+}
+#lowerdiv
+{
+margin-top:5%;
+}
+#outerdiv{
+margin-top:5%;
+height: 600px;
+display: flex;
+
+}
+#wrapper{
+    margin-left:5%;
+    margin-right:5%;
+    height:600px; 
+display: flow-root;
+
+
+    }
+#button1
+{
+
+margin-left: 0%;
+width: 100px;
+
+
+}
+#uname
+{
+
+margin-left: 30%;
+width: 250px;
+
+
+}
+#selector
+{
+
+margin-left: 30%;
+width: 300px;
+
+
+}
+body {
+ 
+background-color: black;
+}​
+
+</style>
+
+</head>
+
+<body class="container" >
+
+<div id="wrapper">
+<div id="lable">
+<h1 style="float:left ">Twitter Top 10 Words</h1>
+<h1 style="float:right ">NyTimes Top 10 Words</h1>
+</div>
+
+<div id = "outerdiv" >
+<div id="chart" ></div>
+
+<div id="chart1" ></div>
+</div>
+
+</div>
+</body>
+
+</html>
